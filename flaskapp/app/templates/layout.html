@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Flask App</title>
+      <div class="container">
+         <h1 class="logo">Flask App</h1>
+         <Strong>
+         <nav>
+            <ul class="menu">
+            </ul>
+         </nav>
+         </strong>
+      </div>
+   <head>
+   <body>
+
+      <header>
+         <div class="container">
+            <h1 class="logo">Flask App</h1>
+         </div>
+      </header>
+
+      <div class="container">
+        {% block content %}
+
+        <form id="a" name="a" method="post" action="result">
+           <input type="input" name="name" value=""/>
+           <input type="input" name="addr" value=""/>
+        </form>
+        
+        {% endblock %}
+      </div>
+   </body>
+</html>
